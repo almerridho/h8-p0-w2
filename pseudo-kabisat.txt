@@ -1,0 +1,9 @@
+STORE 'tahun' any value
+
+IF tahun mod 4 = 0 AND tahun mod 100 > 0
+  DISPLAY "tahun kabisat."
+ELSE IF tahun mod 4 = 0 AND tahun mod 100 = 0 AND tahun mod 400 = 0
+  DISPLAY "tahun kabisat."
+ELSE
+  DISPLAY "bukan tahun kabisat."
+END IF
