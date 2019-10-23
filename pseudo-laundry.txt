@@ -1,0 +1,8 @@
+STORE `totalLaundry` with 0
+
+WHILE `totalLaundry` < 0
+  SET totalLaundry = totalLaundry + 1
+END WHILE
+
+DISPLAY "Mesin Penuh"
+DO `startWash`
