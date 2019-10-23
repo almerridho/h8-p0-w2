@@ -1,0 +1,15 @@
+STORE `totalSiswa` with 40
+STORE `kukuSiswa` with any value
+
+WHILE totalSiswa > 0
+  IF kukuSiswa = "bersih"
+    DO 'pujian'
+    DISPLAY "kuku kamu bersih"
+  ELSE
+    DO 'hukuman'
+    DISPLAY "kuku kamu kotor"
+  END IF
+  SET totalSiswa = totalSiswa - 1
+END WHILE
+
+   
